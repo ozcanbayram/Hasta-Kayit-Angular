@@ -70,10 +70,16 @@
     font-size: 18px;
     margin-top: 8px;
     width: 250px;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     background-color: tomato;
     padding: 10px;
     align-items: center;
+}
+
+.navigations ul li a img {
+    margin-right: 5px;
 }
 
 .search-box {
@@ -88,5 +94,6 @@
 }
 
 .item2 {
-    background-color: black;
+    background-color: black !important;
+    color: blue !important;
 }
