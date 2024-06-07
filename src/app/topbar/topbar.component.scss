@@ -1,0 +1,40 @@
+.top-bar {
+    width: 100%;
+    height: 4rem;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-items {
+    height: 4rem;
+    width: 25%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo-items {
+    width: 230px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right-items {
+    width: 20%;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    background-color: yellow;
+    justify-content: space-evenly;
+
+
+}
