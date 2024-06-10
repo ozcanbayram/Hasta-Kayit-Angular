@@ -4,21 +4,27 @@
     align-items: center;
     width: 82%;
     height: 4rem;
-    background-color: red;
+    // background-color: red;
+    background-color: var(--primary-color);
     justify-content: space-between;
 }
 
 .left-items {
-    background-color: blue;
+    // background-color: blue;
+    background-color: var(--primary-color);
     padding: 15px;
 }
 
 .right-items {
     width: 200px;
     padding: 5px;
-    background-color: yellow;
+    background-color: var(--primary-color);
+    // background-color: yellow;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    position: absolute;
+    right: 0px;
+
 }

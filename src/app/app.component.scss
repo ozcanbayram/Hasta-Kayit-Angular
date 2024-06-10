@@ -11,9 +11,19 @@
 }
 
 .navigation {
-    background-color: red;
+    background-color: var(--primary-color);
+    // background-color: red;
     width: 82%;
     display: flex;
-    justify-content: right;
-    flex-wrap: nowrap;
+    // justify-content: right;
+    // flex-wrap: nowrap;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.main {
+    position: absolute;
+    top: 5rem;
+    left: 19%;
 }
