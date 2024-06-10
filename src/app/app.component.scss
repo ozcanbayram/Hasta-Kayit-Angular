@@ -11,15 +11,18 @@
 }
 
 .navigation {
-    background-color: var(--primary-color);
-    // background-color: red;
-    width: 82%;
+    // background-color: var(--primary-color);
+    // background-color: transparent;
+    width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: red;
     // justify-content: right;
     // flex-wrap: nowrap;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    // position: absolute;
+    // top: 0px;
+    // right: 0px;
 }
 
 .main {

@@ -7,6 +7,9 @@
     // background-color: red;
     background-color: var(--primary-color);
     justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
 }
 
 .left-items {
@@ -24,7 +27,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
-    right: 0px;
+
 
 }
