@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
 
+  isVisible: boolean = true;
+
+  toggleVisibility() {
+    this.isVisible = !this.isVisible;
+  }
+
+  isVisibleSecondBox: boolean = true;
+
+  toggleVisibilitySecondBox() {
+    this.isVisibleSecondBox = !this.isVisibleSecondBox;
+  }
+
 }

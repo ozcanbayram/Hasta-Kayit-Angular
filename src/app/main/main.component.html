@@ -1,12 +1,11 @@
 <div class="container">
     <h4> <span class="first-title"> Hasta Arama / </span> Yeni Hasta Kayıt</h4>
 
-    <div class="ic-baslik">
+    <div class="ic-baslik" (click)="toggleVisibility()">
         <h4> Kimlik Bilgileri</h4>
     </div>
 
-    <div class="kimlik-bilgileri">
-
+    <div class="kimlik-bilgileri" *ngIf="isVisible">
 
         <div class="kimlik-icerikleri">
             <form action="">
@@ -90,10 +89,10 @@
 
     <!-- Nifus bilgileri -->
 
-    <div class="ic-baslik">
+    <div class="ic-baslik" (click)="toggleVisibilitySecondBox()">
         <h4> Nifus Bilgileri</h4>
     </div>
-    <div class="kimlik-bilgileri nifus-bilgileri">
+    <div class="kimlik-bilgileri nifus-bilgileri" *ngIf="isVisibleSecondBox">
         <div class="kimlik-icerikleri nifus">
             <form action="">
 
