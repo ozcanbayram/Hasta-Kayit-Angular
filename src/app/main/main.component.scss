@@ -198,3 +198,33 @@ h4 {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+.sil-kaydet {
+    margin-top: 10px;
+    margin-top: 10px;
+    width: 150vh;
+    height: 41px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.sil-kaydet-butonlar {
+    width: 123px;
+    height: 32px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.sil {
+    border: 1px solid var(--red-color);
+    color: var(--red-color);
+}
+
+.kaydet {
+    background-color: var(--green-color);
+    border: 1px solid var(--green-color);
+    color: var(--primary-color);
+}

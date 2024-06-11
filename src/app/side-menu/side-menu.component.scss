@@ -18,10 +18,14 @@
     height: 4rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
 
+}
+
+.logo-items h4 {
+    margin-left: 8px;
 }
 
 .navigations {
