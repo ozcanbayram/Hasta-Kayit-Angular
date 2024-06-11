@@ -12,7 +12,7 @@ import { MainComponent } from './main/main.component';
     AppComponent,
     TopbarComponent,
     SideMenuComponent,
-    MainComponent
+    MainComponent,
   ],
   imports: [
     BrowserModule,
