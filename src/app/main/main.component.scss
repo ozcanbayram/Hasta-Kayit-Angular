@@ -10,9 +10,9 @@
     /* Menü açıkken margin ekleyelim */
 
     &.expanded {
-        width: 160%;
+        width: 165%;
         /* Menü kapalıyken tam genişlik */
-        margin-left: -250px;
+        margin-left: -265px;
         /* Menü kapalıyken margin kaldırılır */
     }
 }
@@ -28,6 +28,7 @@ h4 {
 }
 
 .ic-baslik {
+    cursor: pointer;
     margin-top: 10px;
     width: 97.8%;
     height: 41px;
