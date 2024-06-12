@@ -10,6 +10,17 @@
     top: 0px;
     align-items: start;
     // justify-content: center;
+
+    //kaybolan menü için eklenenler
+    transition: transform 0.3s ease;
+    /* Geçiş animasyonu ekleyelim */
+    transform: translateX(0);
+
+    /* Varsayılan konum */
+    &.hidden {
+        transform: translateX(-100%);
+        /* Menü gizliyken sol tarafa kaydır */
+    }
 }
 
 .logo-items {

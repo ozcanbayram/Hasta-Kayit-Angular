@@ -1,16 +1,14 @@
-<div class="top-bar">
+<div class="top-bar" [class.expanded]="!menuVisible">
     <div class="left-items">
-
-
-        <a href="#"> <img src="../../assets/images/menu.png" alt="Menu" class="menu-icon"></a>
-
+      <a href="#" (click)="toggleMenu()"> 
+        <img src="../../assets/images/menu.png" alt="Menu" class="menu-icon">
+      </a>
     </div>
-
-
     <div class="right-items">
-        <a href="#"><img src="../../assets/images/ic-1.png" alt="" class="ic-1"></a>
-        <a href="#"><img src="../../assets/images/ic-2.png" alt="" class="ic-2"></a>
-        <a href="#"><img src="../../assets/images/notification-icon.png" alt="" class="ic-3"></a>
-        <a href="#"><img src="../../assets/images/avatar.png" alt="" class="ic-4"></a>
+      <a href="#"><img src="../../assets/images/ic-1.png" alt="" class="ic-1"></a>
+      <a href="#"><img src="../../assets/images/ic-2.png" alt="" class="ic-2"></a>
+      <a href="#"><img src="../../assets/images/notification-icon.png" alt="" class="ic-3"></a>
+      <a href="#"><img src="../../assets/images/avatar.png" alt="" class="ic-4"></a>
     </div>
-</div>
+  </div>
+  

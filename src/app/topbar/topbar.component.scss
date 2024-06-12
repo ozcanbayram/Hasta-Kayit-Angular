@@ -10,6 +10,17 @@
     position: fixed;
     top: 0px;
     z-index: 1000;
+
+    // kaybolan menü için eklenenler
+    width: calc(100% - 280px);
+    /* Menünün genişliği kadar azaltılmış genişlik */
+    transition: width 0.3s ease;
+
+    /* Geçiş animasyonu ekleyelim */
+    &.expanded {
+        width: 100%;
+        /* Menü kapalıyken tam genişlik */
+    }
 }
 
 .left-items {
