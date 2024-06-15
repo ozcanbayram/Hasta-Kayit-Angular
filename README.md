@@ -1,5 +1,14 @@
 # HastaKayit
 
+## Customizable recording screen according to transaction.
+
+![a](https://github.com/ozcanbayram/Kayit-Ekran-Angular/assets/117665864/bb994e70-a91d-474e-bc68-86afedd3c5aa)
+![2](https://github.com/ozcanbayram/Kayit-Ekran-Angular/assets/117665864/9aa96c34-0523-43ea-b704-12dad306e125)
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
 
 ## Development server
